@@ -1,0 +1,93 @@
+\documentclass[12pt,a4paper,sans]{moderncv}
+
+\moderncvstyle{classic}
+\moderncvcolor{black}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fontspec}
+\usepackage[scale=0.8]{geometry}
+
+\setmainfont[
+  Path=/home/crnvl96/.local/share/fonts/Roboto/,
+  UprightFont = *-Regular.ttf,
+  BoldFont = *-Bold.ttf,
+  ItalicFont = *-Italic.ttf,
+  BoldItalicFont = *-BoldItalic.ttf
+]{Roboto}
+
+\setlength{\hintscolumnwidth}{2.5cm}
+\setlist[itemize]{label=$\bullet$, topsep=0pt, parsep=0pt, partopsep=0pt}
+
+% Personal Information
+\name{Adran}{Carnavale}
+\address{Belém - PA, 66040105, Brazil}{}{}
+\phone[mobile]{+55 16993610234}
+\email{adran.carnavale@gmail.com}
+\social[linkedin]{adrancarnavale}
+\social[github]{crnvl96}
+\homepage{crnvl96.dev}
+
+\begin{document}
+\makecvtitle
+
+%----- SUMMARY -----%
+\section{Summary}
+\cvitem{}{\small Hardworking and resourceful individual committed to
+  building user-friendly, functional, and sustainable web applications.
+  Highly skilled in project management and multitasking to deliver
+complex projects within tight deadlines.}
+
+%----- EXPERIENCE -----%
+\section{Experience}
+\cventry{\textit{07/2022 -- Current}}{Full Stack Developer}{Serena Energy}{São
+Paulo, Brazil}{}{
+  \begin{itemize}
+    \item Develop and maintain a large-scale client registration and
+      management system, supporting over 6,000 clients.
+    \item Utilize backend technologies such as Node.js, Docker, and PostgreSQL.
+    \item Employ frontend technologies, including React and Vite.js,
+      to enhance the user interface.
+    \item Perform integrations with external APIs, including Oracle.
+    \item Work daily with AWS to deploy, manage, and scale
+      applications, ensuring robust cloud infrastructure and high availability.
+  \end{itemize}}
+
+%----- SKILLS -----%
+\section{Skills}
+\cvitem{\textit{Frontend}}{React}
+\cvitem{\textit{Backend}}{Node.js, Golang, Python, PostgreSQL, Docker}
+\cvitem{\textit{Cloud}}{AWS}
+
+%----- EDUCATION -----%
+\section{Education}
+\cventry{\textit{2022}}{Course- Web development}{Trybe}{São Paulo, SP}{}{
+  \textbf{Achieved certifications:}
+  \begin{itemize}
+    \item Introduction to Computer Science
+    \item Utilize backend technologies such as Node.js, Docker, and PostgreSQL.
+    \item Front-end development
+    \item Back-end development
+    \item Computer science
+  \end{itemize}
+}
+
+\cventry{\textit{2022}}{Internship - Student instructor}{Trybe}{São Paulo,
+SP}{}{Assist students with
+  tasks and projects.\\
+  Enhanced problem-solving skills by guiding students through
+  technical challenges.\\
+  Developed communication and teaching abilities.
+}
+
+\cventry{\textit{2019}}{Diploma of Higher Education: Nautical
+Sciences}{EFOMM}{Belém, PA}{}{}
+
+%----- CERTIFICATIONS -----%
+\section{Certifications}
+\cvitem{}{\textbf{Golang expert}, by FullCycle Academy}
+\cvitem{}{\textbf{CS50x}, by Harvard University}
+\cvitem{}{\textbf{CS50p}, by Harvard University}
+
+\end{document}

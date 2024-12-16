@@ -1,0 +1,71 @@
+\documentclass[12pt,a4paper,sans]{moderncv}
+
+% Set style and color
+\moderncvstyle{casual} % or 'classic', 'banking', etc.
+\moderncvcolor{black}
+
+% Encoding and language
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Use XeLaTeX or LuaLaTeX to load fonts with fontspec
+\usepackage{fontspec}
+\setmainfont[
+  Path=/home/crnvl96/.local/share/fonts/Roboto/,
+  UprightFont = *-Regular.ttf,
+  BoldFont = *-Bold.ttf,
+  ItalicFont = *-Italic.ttf,
+  BoldItalicFont = *-BoldItalic.ttf
+]{Roboto}
+
+\usepackage[scale=0.8]{geometry}
+
+% Personal Information
+\name{Adran}{Carnavale}
+\address{66040105 Belém - PA}{}{}
+\phone[mobile]{+55 16993610234}
+\email{adran.carnavale@gmail.com}
+\social[linkedin]{adrancarnavale}
+\social[github]{crnvl96}
+\homepage{crnvl96.dev}
+
+\begin{document}
+
+%----- LETTER SETUP -----%
+\recipient{Hiring Manager}{***}
+\date{25 June 2024}
+\opening{Dear Hiring Manager,}
+\closing{Sincerely}
+\makelettertitle
+
+I was excited to hear of this job opportunity from my ***,
+***, who thought I would be a good match for this position.
+With a background in both technology and military education, I bring
+a unique blend of technical expertise and disciplined work ethic that
+aligns with your requirements.
+
+At Serena Energy, I have developed and maintained a large-scale
+client registration system supporting over 4,000 clients. My
+experience includes backend technologies like Node.js, Docker, and
+PostgreSQL, as well as frontend technologies like React and Vite.js.
+I work daily with AWS to ensure robust cloud infrastructure and
+perform integrations with external APIs, including Oracle.
+
+My education at EFOMM provided a strong foundation in hierarchy,
+teamwork, resilience, responsibility, and adaptability. At Trybe, I
+earned certifications in Introduction to Computer Science, Front-End
+Development, Back-End Development, and Computer Science Foundations.
+I also worked as a student instructor, enhancing my communication and
+teaching abilities.
+
+I am passionate about contributing to open-source projects,
+particularly within the Neovim community. My hobbies include board
+games and sports, which contribute to my strategic thinking and teamwork skills.
+
+I am confident that my background and experience would be an asset to
+***. Thank you for considering my application. I look forward
+to discussing how my skills align with your organization's goals.
+
+\makeletterclosing
+
+\end{document}
